@@ -1,0 +1,372 @@
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#mobileHead {
+    display: none;
+    width: 100%;
+    height: 60px;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    font-size: 40px;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+#logo {
+    width: 150px;
+    height: 120px;
+}
+
+#company{
+    vertical-align: center;
+}
+
+#name {
+    font-size: 60px;
+
+}
+
+#slogan {
+    font-size: 30px;
+}
+
+#tel {
+    font-size: 30px;
+}
+
+#mail {
+    font-size: 20px;
+}
+#whatsapp img {
+    width: 120px;
+    height: 120px;
+}
+
+#basket{
+    display: none;
+}
+
+header a:hover{
+    color: red;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    \\height: 65px;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5px;
+
+}
+
+.menu {
+    width: 19%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: silver;
+    text-align: center;
+    min-width: 150px;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 130%;
+
+}
+
+.menu:hover{
+    background-color: red;
+}
+
+
+.conteiner {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#catalog {
+    width: 15%;
+    \\border: 2px solid black;
+    min-width: 180px;
+
+}
+
+#catalogName {
+    box-sizing: border-box;
+    width: 100%;
+    height: 70px;
+    background-color: cornflowerblue;
+    border: 4px solid black;
+    text-align: center;
+}
+
+.catalog{
+    list-style: none;
+    padding: 0;
+    min-width: 170px;
+}
+
+.catalog li {
+    width: 95%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: silver;
+    font-size: 120%;
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+li:hover {
+    background-color: red;
+}
+
+#sale_board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: space-around;
+    align-content: flex-start;
+    //border: 1px solid black;
+
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 250px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.productName {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.price {
+    width: 90%;
+    height: 25px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 5px;
+    background: silver;
+}
+
+.by {
+    display: none;
+    width: 90%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: auto;
+}
+.product:hover{
+    border:2px solid red;
+}
+
+.product>img {
+    width: 120px;
+    margin-left: 40px;
+}
+
+.brand {
+    width: 200px;
+    height: 250px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.brand:hover {
+    border: 2px solid red;
+}
+
+.brand>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 13px;
+}
+
+#info_board {
+    width: 60%;
+}
+
+#content {
+    width: 100%;
+    background-color: cornflowerblue;
+    border: 4px solid black;
+    text-align: center;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.info_board{
+    float: left;
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.info_board img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#info_board p {
+    text-align: justify;
+}
+
+#promotion {
+    display: flex;
+    flex-wrap: wrap;
+    width: 18%;
+    min-width: 200px;
+    justify-content: space-around;
+    align-content: flex-start;
+
+}
+
+#promotionName {
+    box-sizing: border-box;
+    width: 100%;
+    height: 70px;
+    background-color: cornflowerblue;
+    border: 4px solid black;
+    text-align: center;
+}
+
+.promotion{
+    width: 90%;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 20px;
+    background:#fff573;
+}
+
+.promotion>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 13px;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+#footer p {
+    text-align: center;
+}
+
+#footer span {
+    font-size: 26px;
+}
+
+#ps {
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 60px;
+    width: 700px;
+    margin: auto;
+    background-color: silver;
+}
+
+#ps:hover {
+    background-color: red;
+}
+
+#ps p {
+    margin: auto;
+}
+
+.contacts {
+    font-size: 24px;
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+    #mobileHead {
+        display: flex;
+    }
+
+    .mabileVisible {
+        display: none;
+    }
+
+    header {
+        height: 100px;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    #company {
+        display: none
+    }
+    #whatsapp img {
+        width: 90px;
+        height: 90px;
+    }
+
+    #ps {
+        display: none
+    }
+
+    #delivery {
+        display: none;
+    }
+
+    #order {
+        display: none;
+    }
+
+    #content {
+        display: none;
+    }
+
+    #promotion {
+        display: none;
+    }
+}
+
+
+
