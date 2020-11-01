@@ -7,7 +7,11 @@
     Выгодные цены, прямые поставки от производителя.">
     <meta name="yandex-verification" content="d185de840045a71d" />
     <title>ЕвроСнаб | Утеплитель ROCKWOOL оптом</title>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="script.js"></script>
+    <script src="js/jquery.jbform.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/blue.jquery.jbform.css">
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -56,13 +60,18 @@
     </div>
 </header>
 <nav>
+    <div class="gamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
     <a class="menu" href="компания.html">О компании</a>
     <a class="menu" id="delivery" href="доставка.html">Доставка</a>
     <a class="menu" id="order" href="заказ.html">Отправить заказ<br>(24/7)</a>
     <a class="menu" href="контакты.html">Контакты</a>
 </nav>
 <div class="conteiner">
-    <div id="catalog">
+    <div class="menu2">
         <div id="catalogName"><h2>КАТАЛОГ</h2></div>
         <ul class="catalog">
             <a href="утеплитель.html"><li>Утеплитель</li></a>
@@ -74,125 +83,127 @@
             <a href="стеновые-материалы.html"><li>Стеновые материалы</li></a>
             <a href="вилатерм.html"><li>Вилатерм</li></a>
             <a href="цсп-фанера-osb-двп.html"><li>ЦСП,фанера,OSB, ДВП</li></a>
+            <a href="пленка.html"><li>Пленка</li></a>
+            <a href="крепеж.html"><li>Крепеж</li></a>
         </ul>
     </div>
     <div id="sale_board">
         <div id="content"><h1>УТЕПЛИТЕЛЬ ROCKWOOL ОПТОМ</h1></div>
-        <a href="заказ.html"><div class="product">
+        <a class="callme_button"><div class="product">
             <div class="productName"><h3>ROCKWOOL Лайт Баттс</h3></div>
             <img src="Product/rockwool%20LB.jpg"/>
             <div class="price">Цена: 725 руб\упак.</div>
             <div class="by">Купить</div>
         </div></a>
-        <a href="заказ.html"><div class="product">
+        <a class="callme_button"><div class="product">
             <div class="productName"><h3>ROCKWOOL Лайт Баттс СКАНДИК</h3></div>
             <img src="Product/rockwool%20skandik.jpg"/>
             <div class="price">Цена: 500 руб\упак.</div>
             <div class="by">Купить</div>
         </div></a>
-        <a href="заказ.html"><div class="product">
+        <a class="callme_button"><div class="product">
             <div class="productName"><h3>ROCKWOOL Лайт Баттс ЭКСТРА</h3></div>
             <img src="Product/rockwool%20extra.jpg"/>
             <div class="price">Цена: 759 руб\упак.</div>
             <div class="by">Купить</div>
         </div></a>
-        <a href="заказ.html"><div class="product">
+        <a class="callme_button"><div class="product">
             <div class="productName"><h3>ROCKWOOL САУНА БАТТС</h3></div>
             <img src="Product/rockwool%20sauna.jpg"/>
             <div class="price">Цена: 980 руб\упак.</div>
             <div class="by">Купить</div>
         </div></a>
-        <a href="заказ.html"><div class="product">
+        <a class="callme_button"><div class="product">
             <div class="productName"><h3>ROCKWOOL КАВИТИ БАТТС</h3></div>
             <img src="Product/rockwool%20KB.jpg"/>
             <div class="price">Цена: 3 264 руб\м3</div>
             <div class="by">Купить</div>
         </div></a>
-        <a href="заказ.html"><div class="product">
+        <a class="callme_button"><div class="product">
             <div class="productName"><h3>ROCKWOOL АКУСТИК БАТТС</h3></div>
             <img src="Product/rockwoolAcustic.jpg"/>
             <div class="price">Цена: 928 руб\упак.</div>
             <div class="by">Купить</div>
         </div></a>
-        <a href="заказ.html"><div class="product">
+        <a class="callme_button"><div class="product">
             <div class="productName"><h3>ROCKWOOL АКУСТИК Ультратонкий</h3></div>
             <img src="Product/rockwoolAcusticLight.jpg"/>
             <div class="price">Цена: 942 руб\упак.</div>
             <div class="by">Купить</div>
         </div></a>
-        <a href="заказ.html"><div class="product">
+        <a class="callme_button"><div class="product">
             <div class="productName"><h3>ROCKWOOL АКУСТИК БАТТС ПРО</h3></div>
             <img src="Product/rockwoolAcusticBATT.jpg"/>
             <div class="price">Цена: 4 834 руб\м3</div>
             <div class="by">Купить</div>
         </div></a>
-        <a href="заказ.html"><div class="product">
+        <a class="callme_button"><div class="product">
             <div class="productName"><h3>ROCKWOOL ФЛОР БАТТС</h3></div>
             <img src="Product/rockwoolFlorBATT.jpg"/>
             <div class="price">Цена: 874 руб\упак.</div>
             <div class="by">Купить</div>
         </div></a>
-        <a href="заказ.html"><div class="product">
+        <a class="callme_button"><div class="product">
             <div class="productName"><h3>ROCKWOOL ФЛОР БАТТС И</h3></div>
             <img src="Product/rockwoolFlorBATTi.jpg"/>
             <div class="price">Цена: 9 016 руб\м3</div>
             <div class="by">Купить</div>
         </div></a>
-        <a href="заказ.html"><div class="product">
+        <a class="callme_button"><div class="product">
             <div class="productName"><h3>ROCKWOOL РУФ БАТТС В ЭКСТРА</h3></div>
             <img src="Product/rockwoolFlorBATTi.jpg"/>
             <div class="price">Цена: 11 604 руб\м3</div>
             <div class="by">Купить</div>
         </div></a>
-        <a href="заказ.html"><div class="product">
+        <a class="callme_button"><div class="product">
             <div class="productName"><h3>ROCKWOOL РУФ БАТТС Н ЭКСТРА</h3></div>
             <img src="Product/rockwoolFlorBATTi.jpg"/>
             <div class="price">Цена: 6 752 руб\м3</div>
             <div class="by">Купить</div>
         </div></a>
-        <a href="заказ.html"><div class="product">
+        <a class="callme_button"><div class="product">
             <div class="productName"><h3>ROCKWOOL РУФ БАТТС В ОПТИМА</h3></div>
             <img src="Product/rockwoolBattBextra.jpg"/>
             <div class="price">Цена: 10 098 руб\м3</div>
             <div class="by">Купить</div>
         </div></a>
-        <a href="заказ.html"><div class="product">
+        <a class="callme_button"><div class="product">
             <div class="productName"><h3>ROCKWOOL РУФ БАТТС Н ОПТИМА</h3></div>
             <img src="Product/rockwoolBattBextra.jpg"/>
             <div class="price">Цена: 5 875 руб\м3</div>
             <div class="by">Купить</div>
         </div></a>
-        <a href="заказ.html"><div class="product">
+        <a class="callme_button"><div class="product">
             <div class="productName"><h3>ROCKWOOL РУФ БАТТС Д ЭКСТРА</h3></div>
             <img src="Product/rockwoolBattDextra.jpg"/>
             <div class="price">Цена: 8 037 руб\м3</div>
             <div class="by">Купить</div>
         </div></a>
-        <a href="заказ.html"><div class="product">
+        <a class="callme_button"><div class="product">
             <div class="productName"><h3>ROCKWOOL РУФ БАТТС Д СТАНДАРТ</h3></div>
             <img src="Product/rockwoolBattDextra.jpg"/>
             <div class="price">Цена: 9 016 руб\м3</div>
             <div class="by">Купить</div>
         </div></a>
-        <a href="заказ.html"><div class="product">
+        <a class="callme_button"><div class="product">
             <div class="productName"><h3>ROCKWOOL РУФ БАТТС Д ОПТИМА</h3></div>
             <img src="Product/rockwoolBattDextra.jpg"/>
             <div class="price">Цена: 9 016 руб\м3</div>
             <div class="by">Купить</div>
         </div></a>
-        <a href="заказ.html"><div class="product">
+        <a class="callme_button"><div class="product">
             <div class="productName"><h3>ROCKWOOL РУФ БАТТС СТЯЖКА</h3></div>
             <img src="Product/rockwoolBattBextra.jpg"/>
             <div class="price">Цена: 9 016 руб\м3</div>
             <div class="by">Купить</div>
         </div></a>
-        <a href="заказ.html"><div class="product">
+        <a class="callme_button"><div class="product">
             <div class="productName"><h3>ROCKWOOL ФАСАД БАТТС ЭКСТРА</h3></div>
             <img src="Product/rockwoolBattDextra.jpg"/>
             <div class="price">Цена: 9 574 руб\м3</div>
             <div class="by">Купить</div>
         </div></a>
-        <a href="заказ.html"><div class="product">
+        <a class="callme_button"><div class="product">
             <div class="productName"><h3>ROCKWOOL ФАСАД БАТТС ОПТИМА</h3></div>
             <img src="Product/rockwoolBattDextra.jpg"/>
             <div class="price">Цена: 7 956 руб\м3</div>
