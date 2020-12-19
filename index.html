@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Комплексное снабжение строительных обьектов.
-    Выгодные цены, прямые поставки от производителей материалов">
+    Выгодные цены, прямые поставки от производителей стройматериалов.">
     <meta name="yandex-verification" content="d185de840045a71d" />
-    <title>ЕвроСнаб - оптовый поставщик строительных материалов</title>
+    <title>ЕвроСнаб - оптовый поставщик строительных материалов!!!</title>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="script.js"></script>
+    <script src="js/jquery.jbform.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/blue.jquery.jbform.css">
+    <link rel="icon" href="https://euro-snab.store/favicon.ico" type="image/x-icon">
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -23,13 +28,28 @@
     </script>
     <noscript><div><img src="https://mc.yandex.ru/watch/65904181" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176699336-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-176699336-1');
+    </script>
+    <!-- /Global site tag (gtag.js) - Google Analytics -->
 </head>
 <body>
 <div id="mobileHead"><img src="Pic/logo-eurosnab.png" width="50px" height="50px">ЕвроСнаб</div>
 <header>
     <img id="logo" src="Pic/logo-eurosnab.png" alt="логотип"/>
     <div id="company"><p><span id="name">ЕвроСнаб - </span><br><span id="slogan">Ваш надежный поставщик!!!</span></p></div>
-    <div id="contaсt"><p><a href="tel:+74999224068"><span id="tel">+7(499)922-40-68</span></a><br><br><a href="mailto:eurosnab2006@yandex.ru"><span id="mail">eurosnab2006@yandex.ru</span></a></p></div>
+    <div id="contaсt">
+        <p>
+            <a href="tel:+74950854305"><span id="tel">+7(495)085-43-05</span></a><br><br>
+            <a href="mailto:sales@euro-snab.store"><span id="mail">sales@euro-snab.store</span></a>
+        </p>
+    </div>
     <div id="whatsapp"><a href="https://wa.me/79160412453?text=Хочу%20сделать%20заказ"><img src="Pic/whatsapp.png" alt="Заказ по whatsapp"/></a></div>
     <div id="basket">
         <a href="">
@@ -39,18 +59,20 @@
             <div> 0 товаров <br> на сумму <br> 0 руб.</div>
         </a>
     </div>
-
-
 </header>
 <nav>
+    <div class="gamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
     <a class="menu" href="компания.html">О компании</a>
     <a class="menu" id="delivery" href="доставка.html">Доставка</a>
     <a class="menu" id="order" href="заказ.html">Отправить заказ<br>(24/7)</a>
     <a class="menu" href="контакты.html">Контакты</a>
-
 </nav>
 <div class="conteiner">
-    <div id="catalog">
+    <div class="menu2">
         <div id="catalogName"><h2>КАТАЛОГ</h2></div>
         <ul class="catalog">
             <a href="утеплитель.html"><li>Утеплитель</li></a>
@@ -62,76 +84,197 @@
             <a href="стеновые-материалы.html"><li>Стеновые материалы</li></a>
             <a href="вилатерм.html"><li>Вилатерм</li></a>
             <a href="цсп-фанера-osb-двп.html"><li>ЦСП,фанера,OSB, ДВП</li></a>
+            <a href="пленка.html"><li>Пленка</li></a>
+            <a href="крепеж.html"><li>Крепеж</li></a>
         </ul>
     </div>
     <div id="sale_board">
-        <div id="content"><h1>ЛУЧШИЕ ПРЕДЛОЖЕНИЯ</h1></div>
-        <a href=""><div class="product">
+        <div id="content"><h1>Прямые оптовые поставки строительных материалов от производителей</h1></div>
+        <div class="instruction">
+            <p>В нашем каталоге представлена продукция и базовые оптовые цены всех основных производителей стройматериалов,
+                представленных на рынке. Выбирете раздел каталога, логотип нужного производителя и ознакомьтесь с его
+                продукцией и ценами. Если Вы затрудняетесь с выбором и Вам нужна наша помощь, а так же, если Вы хотите
+                зарегистрировать свой объект и получить индивидуальные цены, смело звоните нам или <a href="заказ.html" style="color: blue">отправляйте заявку.</a>
+            </p>
+            <p>Мы всегда можем предложить Вам продукцию альтернативных производителей и подобрать замену строительных материалов с
+                аналогичными техническими характеристиками по более выгодным ценам. <a href="заказ.html" style="color: blue">Просто отправьте нам заявку!!!</a>
+            </p>
+            <p>У вас есть более выгодное предложение другого поставщика? Пришлите его нам и возможно мы его улучшим!!!</p>
+            <div><h2>Наши лучшие оптовые цены:</h2></div>
+        </div>
+        <a class="callme_button"><div class="product">
             <div class="productName"><h3>ICOPAL Н ЭПП 4,0</h3></div>
             <img src="Product/icopal%20Н%20ЭПП.jpg"/>
             <div class="price">Цена: 165 руб/м2</div>
             <div class="by">Купить</div>
         </div></a>
-        <a href=""><div class="product">
-            <div class="productName"><h3>МАКСДРЕЙН 8 ГТ</h3></div>
-            <img src="Product/maxdrein_8.jpg"/>
-            <div class="price">Цена: 183 руб/м2</div>
-            <div class="by">Купить</div>
-        </div></a>
-        <a href=""><div class="product">
-            <div class="productName"><h3>МАКСДРЕЙН 8</h3></div>
-            <img src="Product/maxdrein.jpg"/>
-            <div class="price">Цена: 110 руб/м2</div>
-            <div class="by">Купить</div>
-        </div></a>
-        <a href=""><div class="product">
-            <div class="productName"><h3>Вилатерм 50/27 мм</h3></div>
-            <img src="Product/vilaterm_50_27.jpg"/>
-            <div class="price">Цена: 13,95 руб/мп</div>
-            <div class="by">Купить</div>
-        </div></a>
-        <a href=""><div class="product">
-            <div class="productName"><h3>Пенопласт ПСБ-35</h3></div>
-            <img src="Product/ПСБ-35.jpg"/>
-            <div class="price">Цена: 3350 руб/м3</div>
-            <div class="by">Купить</div>
-        </div></a>
-        <a href=""><div class="product">
-            <div class="productName"><h3>Пеноплекс ГЕО 50</h3></div>
-            <img src="Product/penoplex.jpg"/>
-            <div class="price">Цена: 4570 руб/м3</div>
-            <div class="by">Купить</div>
-        </div></a>
-        <a href=""><div class="product">
-            <div class="productName"><h3>Изовент-СЛ 50</h3></div>
-            <img src="Product/ISOROC.jpg"/>
-            <div class="price">Цена: 3135 руб/м3</div>
-            <div class="by">Купить</div>
-        </div></a>
-        <a href=""><div class="product">
-            <div class="productName"><h3>Геотекстиль Дорнит 200</h3></div>
-            <img src="Product/дорнит.jpg"/>
-            <div class="price">Цена: 22 руб/м2</div>
-            <div class="by">Купить</div>
-        </div></a>
-        <a href=""><div class="product">
+        <a class="callme_button"><div class="product">
             <div class="productName"><h3>Plastfoil ECO 1,2</h3></div>
             <img src="Product/Plastfoil%20ECO.jpg"/>
-            <div class="price">Цена: 340 руб/м2</div>
+            <div class="price">Цена: 310 руб/м2</div>
             <div class="by">Купить</div>
         </div></a>
-        <a href=""><div class="product">
+        <a class="callme_button"><div class="product">
             <div class="productName"><h3>URSA XPS N-II-L</h3></div>
             <img src="Product/ursa%20xps%20standart.png"/>
             <div class="price">Цена: 3470 руб/м3</div>
             <div class="by">Купить</div>
         </div></a>
-        <a href=""><div class="product">
-            <div class="productName"><h3>Baswool фасад 50</h3></div>
+        <a class="callme_button"><div class="product">
+            <div class="productName"><h3>Baswool фасад<br>50 мм</h3></div>
             <img src="Product/baswool%20light.png"/>
             <div class="price">Цена: 4770 руб/м3</div>
             <div class="by">Купить</div>
         </div></a>
+        <a class="callme_button"><div class="product">
+            <div class="productName"><h3>Isoroc Изовент-СЛ 50 мм</h3></div>
+            <img src="Product/ISOROC.jpg"/>
+            <div class="price">Цена: 3135 руб/м3</div>
+            <div class="by">Купить</div>
+        </div></a>
+        <a class="callme_button"><div class="product">
+            <div class="productName"><h3>Геотекстиль Дорнит 200</h3></div>
+            <img src="Product/дорнит.jpg"/>
+            <div class="price">Цена: 22 руб/м2</div>
+            <div class="by">Купить</div>
+        </div></a>
+        <a class="callme_button"><div class="product">
+            <div class="productName"><h3>МАКСДРЕЙН 8 ГТ</h3></div>
+            <img src="Product/maxdrein_8.jpg"/>
+            <div class="price">Цена: 183 руб/м2</div>
+            <div class="by">Купить</div>
+        </div></a>
+        <a class="callme_button"><div class="product">
+            <div class="productName"><h3>МАКСДРЕЙН 8</h3></div>
+            <img src="Product/maxdrein.jpg"/>
+            <div class="price">Цена: 110 руб/м2</div>
+            <div class="by">Купить</div>
+        </div></a>
+        <a class="callme_button"><div class="product">
+            <div class="productName"><h3>Пенопласт ПСБ-35</h3></div>
+            <img src="Product/ПСБ-35.jpg"/>
+            <div class="price">Цена: 3350 руб/м3</div>
+            <div class="by">Купить</div>
+        </div></a>
+        <a class="callme_button"><div class="product">
+            <div class="productName"><h3>Пеноплекс ГЕО<br>50 мм</h3></div>
+            <img src="Product/penoplex.jpg"/>
+            <div class="price">Цена: 4570 руб/м3</div>
+            <div class="by">Купить</div>
+        </div></a>
+        <div class="article">
+            <h2>Комплексное снабжение строительных объектов под ключ</h2>
+            <p>
+                Снабжение в строительстве занимает одно из основных направлений в ходе реализации согласованного проекта.
+                Своевременная поставка строительных материалов на объект исключает простои в работе, а оптовые цены на
+                продукцию делают строительство объекта рентабельным.
+            </p>
+            <p>
+            <span>Комплексное снабжение строительных объектов материалами</span> — это востребованная услуга при возведении
+                любых зданий и сооружений. Комплексное снабжение строительных объектов материалами — это востребованная
+                услуга при возведении любых зданий и сооружений.
+            </p>
+            <p>
+                Как же найти опытных специалистов в этой области, чтобы прямые оптовые поставки строительных материалов
+                были качественными и своевременными?
+            </p>
+            <p>
+                Работа по снабжению требует опыта ведения переговоров, надежных профессиональных связей и отличной
+                деловой репутации. Выстроить эффективную логистическую цепочку от поставщика-производителя к строительной
+                компании — дело непростое.
+            </p>
+            <p>
+                Компания «ЕвроСнаб» готова организовать комплексное снабжение предприятий стройматериалами и стать
+                Вашим основным и надежным поставщиком.
+            </p>
+            <p>
+                Имея 15-летний опыт продаж строительных материалов, отдел логистов по организации перевозки и широкую
+                клиентскую базу производителей материалов для строительства, мы готовы предложить самые лучшие условия
+                в области снабжения.
+            </p>
+            <p>
+                Став официальным дилером многих известных брендов, мы предлагаем самые низкие цены на материалы разных
+                торговых марок. Готовы не только купить строительные материалы оптом, но и
+            </p>
+            <ul>
+                <li>найти нужные стройматериалы высокого качества по низким ценам и от производителя;</li>
+                <li>просчитать стоимость транспортировки по кратчайшему оптимальному маршруту;</li>
+                <li>заключить договора на поставку и перевозку;</li>
+                <li>соблюсти сроки и беспрерывность работ на объекте;</li>
+                <li>организовать доставку продукции с погрузочно-разгрузочными работами.</li>
+            </ul>
+            <h2>Основные этапы комплексного снабжения строительных объектов</h2>
+            <p>
+                <span>Подбор строительных материалов.</span> Выбор нужных стройматериалов осуществляется на основании утвержденной
+                документации по проекту. Этот процесс проходит в тесной связи с заказчиком по правилу «от общего — к частному».
+            </p>
+            <p>
+                Сначала выбираются виды стройматериалов с нужными параметрами, а потом определяются конкретные бренды и
+                марки. Все постоянно коррелируется с выделенным бюджетом. Причем стройматериалы могут подбираться по
+                группам: для стройки, для внутренних облицовочных работ и т.п.
+            </p>
+            <p>
+                Соответствие продукции ГОСТ или ТУ, наличие всех сертификатов и паспортов качества на материалы — не
+                обсуждаемое требование при выборе строительных материалов. Это обязательный и строго контролируемый вопрос.
+            </p>
+            <p>
+                <span>Расчет объемов материалов.</span> Здесь важно сделать правильные расчеты, поскольку и избыток, и недостаток
+                ведут к дополнительным затратам на перевозку, к простою и нарушению строительных технологий или к
+                складированию и хранению остатков. Согласование объемов закупки с заказчиком и сверка с бюджетом на
+                этом этапе также обязательны.
+            </p>
+            <p>
+                <span>Приобретение материалов.</span> Заключив договор с нашей компанией на комплексное снабжение строительных
+                объектов, Ваша организация избавляется от дополнительных переговоров и согласований, подписания
+                договоров на покупку. Вы сразу получаете выгодные цены и быструю отгрузку стройматериалов со склада производителя.
+            </p>
+            <p>
+                <span>Транспортировка и доставка.</span> Наши специалисты умело формируют сборные грузы от разных заводов, снижая
+                расходы на транспортировку и увеличивая скорость получения материалов на стройке. Правильно
+                организованная доставка — большой плюс услуги «комплексное снабжение».
+            </p>
+            <h2>Преимущества комплексного снабжения предприятий «под ключ»</h2>
+            <ul>
+                <li>Выбор оптовых цен на материалы.</li>
+                <li>Высокое качество продукции.</li>
+                <li>Сведенный к минимуму риск недобросовестной конкуренции.</li>
+                <li>Упрощенное ведение документации из-за меньшего числа поставщиков.</li>
+                <li>Сотрудничество в рамках одного контракта, где прописана ответственность за несвоевременную доставку.</li>
+                <li>Уменьшение кадрового состава и экономия на содержании отдела снабжения и логистов.</li>
+                <li>Четкое планирование и бесперебойное снабжение строительства.</li>
+            </ul>
+            <h2>Почему мы?</h2>
+            <p>
+                Выбрав нашу компанию в роли основного поставщика, Вы получите надежного партнера по возведению жилья и
+                промышленных объектов, который имеет:
+            </p>
+            <ul>
+                <li>огромный положительный опыт работы в этой сфере;</li>
+                <li>команду профессионалов своего дела;</li>
+                <li>налаженные связи и подписанные дилерские соглашения с заводами-производителями.</li>
+                <li>
+                    Предлагает широкий ассортимент материалов для строительства: утеплитель, гидроизоляция,
+                    сухие смеси, стеновые материалы, геотекстиль, ПВХ-материалы, крепеж и многое другое.
+                </li>
+                <li>
+                    Оперативное выполнение обязанностей и реагирование на изменения в ходе проведения строительных работ.
+                </li>
+                <li>Выполнение функций отделов снабжения и логистики.</li>
+                <li>Соблюдение сроков и условий договора.</li>
+                <li>Поиск оптимальных путей реализации и выбор самых лучших цен.</li>
+
+            </ul>
+            <p>
+                Предоставляем персонального консультанта, который всегда на связи и готов купить строительные материалы
+                оптом для Вашей компании.
+            </p>
+            <p>
+                Если Вы серьезно относитесь к планированию времени и расходов, доверьте  прямые оптовые поставки
+                строительных материалов от производителей нам. Сервисом компании «ЕвроСнаб» останетесь довольны!
+                Рассчитываем на долгосрочное и плодотворное сотрудничество!
+            </p>
+        </div>
+
     </div>
     <div id="promotion">
         <div id="promotionName"><h2>АКЦИИ</h2></div>
@@ -139,17 +282,17 @@
         <div class="promotion"><img src="Promotion/promo2.gif" alt="Скидка 3%"/></div>
         <div class="promotion"><img src="Promotion/promo3.gif" alt="Комплексное снабжение объекта"/></div>
     </div>
-
 </div>
-
 <footer>
     <div id="footer">
-
-        <div><p><span>ООО "ГК" ЕВРОСНАБ"</span><br>117628, г.Москва, ул. Куликовская, д. 12</p></div>
+        <div><p><span>ООО "ГК" ЕВРОСНАБ"</span><br>г. Видное, ул. Донбасская, д. 2, стр. 1</p></div>
         <div id="ps"><a href="заказ.html"><p>Если Вы не нашли необходимый товар на нашем сайте - направьте<br>
             нам запрос и мы сделаем для Вас хорошее ценовое предложение!!!</p></a></div>
-
     </div>
 </footer>
+
+<script>
+
+</script>
 </body>
 </html>
